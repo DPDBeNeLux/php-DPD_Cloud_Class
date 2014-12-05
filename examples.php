@@ -1,11 +1,11 @@
 <?php
 
-include_once 'DPD.api.class.inc';
+include_once 'DPD_Cloud_REST.api.class.inc';
 $partner_name = 'Partner Name';
 $partner_token = 'Partner Token';
 $user_clouduserid = 'User Name';
 $user_token = 'User password';
-$dpd = new DPD_REST_API($partner_name, $partner_token, $user_clouduserid, $user_token);
+$dpd = new DPD_Cloud_REST($partner_name, $partner_token, $user_clouduserid, $user_token);
 
 // Make an order request
 // Fill with your values/data

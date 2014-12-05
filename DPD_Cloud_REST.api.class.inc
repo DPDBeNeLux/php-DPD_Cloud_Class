@@ -3,7 +3,7 @@
  * DPD REST API library/class
  * Interaction with DPD REST Web services.
  */
-class DPD_REST_API {
+class DPD_Cloud_REST {
 
    private $Url; // URL for RETS service.
    private $Version; // Version.
